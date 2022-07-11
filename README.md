@@ -7,7 +7,7 @@
 ## Built With
 
 - HTML, CSS, JavaScript
-- (Luxon)[https://moment.github.io/luxon/#/]
+- [Luxon](https://moment.github.io/luxon/#/)
 - (Used Lighthouse, Webhint, Stylelint, and ESLint as linters)
 
 ## Live Demo
