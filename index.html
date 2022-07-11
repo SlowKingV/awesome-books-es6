@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,8 +9,54 @@
 
   <link rel="stylesheet" href="./index.css">
 </head>
-<body>
 
-  <script src="./index.js"></script>
+<body>
+  <header>
+    <nav class="top-nav">
+      <p>Awesome Books</p>
+      <ul class="top-nav-ul">
+        <li class="nav-link" data-target="booklist"><a href="javascript:void(0)">List</a></li>
+        <li class="vertical-bar"></li>
+        <li class="nav-link" data-target="addbook"><a href="javascript:void(0)">Add new</a></li>
+        <li class="vertical-bar"></li>
+        <li class="nav-link" data-target="contact"><a href="javascript:void(0)">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <time datetime="2021-03-19">March 19th 2021, 9:25:32 am</time>
+  <section id="booklist" class="content active">
+    <h1>All awesome books</h1>
+    <ul id="books-section" class="books-section">
+
+    </ul>
+  </section>
+  <section id="addbook" class="content add-section">
+    <span class="black-bar"></span>
+    <h2>Add a new book</h2>
+    <form action="#">
+      <input type="text" name="Title" id="title" placeholder="Title">
+      <br>
+      <input type="text" name="Author" id="author" placeholder="Author">
+      <br>
+      <button type="button" id="submit">Add</button>
+    </form>
+  </section>
+  <section id="contact" class="content contact-info">
+    <div class="info-div">
+      <h2>Contact Information</h2>
+      <p>Do you have any questions or you just want to say "Hello".</p>
+      <p>You can reach out to us:</p>
+      <ul class="contact-info-ul">
+        <li>Our Email: email@example.com</li>
+        <li>Our Phone: 123456789</li>
+        <li>Our Address: Street Name 22, 84503 City, Country.</li>
+      </ul>
+    </div>
+  </section>
+  <footer>
+    <p>Copyright</p>
+  </footer>
+  <script src="./index.js" type="module"></script>
 </body>
+
 </html>
