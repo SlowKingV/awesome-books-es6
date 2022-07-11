@@ -1,7 +1,7 @@
-import { Book } from './Book.js';
+import Book from './Book.js';
 import { booksSection, titleInput, authorInput } from './DOMElements.js';
 
-export class BookList {
+export default class BookList {
   constructor() {
     this.books = [];
     this.booksSection = booksSection;

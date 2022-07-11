@@ -1,6 +1,6 @@
-import { DateTime } from "./luxon.js";
+import { DateTime } from './luxon.js';
 
-export class Date {
+export default class Date {
   constructor() {
     this.refresh();
   }

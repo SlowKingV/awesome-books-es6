@@ -1,7 +1,7 @@
-import { Date } from './modules/Date.js';
+import Date from './modules/Date.js';
 import { timeString, navLinks, addButton } from './modules/DOMElements.js';
-import { BookList } from './modules/BookList.js';
-import { switchSection } from './modules/DOMManipulation.js';
+import BookList from './modules/BookList.js';
+import switchSection from './modules/DOMManipulation.js';
 
 const date = new Date();
 date.setToElement(timeString);

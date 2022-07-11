@@ -10,4 +10,12 @@ const pageSections = {
   contact: document.getElementById('contact'),
 };
 
-export { timeString, titleInput, authorInput, addButton, booksSection, navLinks, pageSections };
+export {
+  timeString,
+  titleInput,
+  authorInput,
+  addButton,
+  booksSection,
+  navLinks,
+  pageSections,
+};
